@@ -66,7 +66,7 @@ var password1 = document.querySelector('#password');
              if(phonenumberRegex.test(phone)==true)
                  {  
                    alert('Success!!')
-                   window.location.replace("./index1.html")
+                   window.location.replace("./index.html")
                  }    
 
             else
