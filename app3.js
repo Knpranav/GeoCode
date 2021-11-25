@@ -1,4 +1,5 @@
 function initMap() {
+  // lat and lng of bangalore
     const myLatlng ={lat: 12.9716, lng:77.5946};
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 5,
