@@ -1,0 +1,117 @@
+.container{
+    margin:5px auto;
+    background-image: linear-gradient(270deg, #000764 0%, #3b58da);
+    display: grid;
+    text-align: center;
+    gap:10px;
+    width: 900px;
+    font-weight:bold;
+
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 44px;
+    box-shadow: 0px 0px 20px black;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    vertical-align:50%;
+    height:80px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(28, 98, 179),rgb(0, 0, 0));
+}
+i {
+    margin-left: -30px;
+    cursor: pointer;
+    color: black;
+}
+i:hover{
+    color: rgb(31, 87, 243);
+    transition: 0.3s;
+
+}
+.top{
+    width:100%;
+    display: flex;
+    height: min-content;
+    justify-content: center;
+    align-items: center;
+
+}
+#data{
+ box-shadow: 0px 0px 20px rgb(0, 0, 0);
+ padding: 2px 10px 2px 10px;
+ background-color: rgb(44, 78, 192);
+ border-radius: 2px;
+ width: 200px;
+ text-align: center;
+}
+
+
+.container>div{
+
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    margin: auto auto;
+    justify-self: center;
+    align-self:center;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(67, 68, 67);
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;
+    padding:5px;
+    text-align: left;
+    width: 800px;
+    
+}
+
+input{
+    border: none;
+    line-height: 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    width: 400px;
+    padding-left: 10px;
+
+
+}
+
+button{
+    width: 100px;
+    align-self: center;
+    justify-self:center ;
+    border: none;
+    text-transform:uppercase;
+    background-color: rgb(4, 189, 127);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+button:hover{
+    background-color:#32CD30;
+    transition: 1s;
+    width: 350px;
+    border-radius:2px
+}
+.detail{
+    color: transparent;
+}
+ .detail{
+    text-transform: lowercase;
+    text-transform: capitalize;
+    color: rgb(252, 92, 92);
+ }
+ 

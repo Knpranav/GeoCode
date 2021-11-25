@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />    
+<title>Sign-up</title>
+</head>
+<body id='file'>
+    <div class="top"><h1>Google SIGNUP</h1></div>
+    <div class="container">
+    <div class="name1"><div id='data'class='data1'> First Name: </div><input type="text" autocomplete="off"id='fname' placeholder="Enter first name"></div>
+    <div class="name2"><div id='data' class= 'data2'>Last Name: </div><input type="text"  autocomplete="off" id='lname' placeholder="Enter last name"></div>
+    <div class="name2"><div id='data' class= 'data3'> Username: </div><input type="text" autocomplete="off" id='uname' placeholder="Enter a username"><div class="detail">8 - 15 char</div></div>
+    <div class="email"><div id='data'class='data4'>Email:</div><input type="email" name="" autocomplete="off" id="Email" placeholder="Enter a valid email-id"><div class="detail">email should be valid</div></div>
+    <div class="phone"><div id='data'class='data5'>Phone-Number:</div><input type="number" autocomplete="off" id="Phone" placeholder="Enter phone number"><div class="detail">Number should be 10 digits</div></div>
+    <div class="password1" ><div for="password" id='data' class='data6'> Password:</div><input autocomplete="off" type="password" name="password" id="Password1" placeholder="Enter a password"/><i class="bi bi-eye-slash" id="togglePassword"></i><div class="detail">Password should have one number/special char/capital letter</div></div>
+    <div class="password2"><div for="" id='data'class='data7'>Re-Enter</div><input type="password" name="password" id="Password2" placeholder="Confirm password"/></div>
+    <button onclick="check()">Submit</button>
+    <br>
+</div>
+<script src="app2.js"></script>
+</body>
+</html>

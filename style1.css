@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: 'M PLUS 1', sans-serif;
+}
+#box{
+    align-self: center;
+    display: block;
+    text-align: left;
+    width: 100%;
+
+}
+#heading{
+    width: 100%;
+    height: min-content;
+    justify-self: center;
+    align-self:center;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 50px;
+    height: 100%;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+
+#container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 49% 1% 50%;
+}
+#line{
+    height: 0px;
+    margin: auto auto;
+    background-image: linear-gradient(to bottom,rgb(39, 252, 152),rgb(186, 248, 42));
+    width: 2px;
+    animation-name: load;
+    animation-iteration-count: infinite;
+    animation-duration:6s;
+    animation-direction: alternate;
+}
+i {
+    margin-left: -30px;
+    cursor: pointer;
+    font-size: 20px;
+    color:black;
+}
+@keyframes load{
+    form{
+        background-image: linear-gradient(to bottom,rgb(39, 252, 152),rgb(186, 248, 42));
+        height:0px;
+        
+        
+        
+    }
+    to{
+        height: 50%;
+        background-image: linear-gradient(to top,rgb(39, 252, 152),rgb(186, 248, 42));
+    }
+}
+#line::after{
+    height: 50%;
+}
+#heading{
+    color: white;
+    justify-self:center;
+    align-self: center;
+    overflow-x: hidden;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgb(252, 252, 252);
+    font-size: 30px;
+    width: 100%;
+}
+
+
+button{
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    letter-spacing: 1px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+h4{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    animation: fade 3.5s infinite;
+    text-shadow: 0px 0px 2px rgb(252, 252, 252);
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html,body{
+    height: 100%;
+    background-image: linear-gradient(to right,rgb(28, 98, 179),rgb(0, 0, 0));
+}
+button,input,h4{
+    margin-left: 10%;
+}
+
+input{
+    border: none;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+    width: 200px;
+    text-align:left;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+ a:hover{
+    background-color: rgb(163, 253, 190);
+    color: rgb(87, 87, 87);
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(163, 253, 190);
+    color: rgb(87, 87, 87);
+    transition: 0.3s;
+
+}
